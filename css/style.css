@@ -1,0 +1,112 @@
+:root {
+    --main-color: #0D192B;
+    --secondary-color: #14253D;
+    --eth-color: #00FFF8;
+    --text-color: #FFFFFF;
+    --other-text-color: #6CACDA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65%;
+    min-height: 100vh;
+    background: var(--main-color);
+}
+
+/* *Contenedor */
+.card-container {
+    padding: 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary-color);
+}
+
+.card-container .img {
+    width: 280px;
+    border-radius: 1rem;
+}
+
+/* * */
+.card-container h2 {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    color: var(--text-color);
+}
+
+/* * */
+.card-container p {
+    display: flex;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    width: 280px;
+    color: var(--other-text-color);
+}
+
+/* * */
+.card-container .figures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+/* * */
+.card-container .figures figure {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+/* * */
+.card-container .figures .figure1 {
+    font-size: 1.1rem;
+    color: var(--eth-color);
+}
+
+/* * */
+.card-container .figures .figure2 {
+    font-size: 1.1rem;
+    color: var(--other-text-color);
+}
+
+/* * */
+.card-container .line {
+    border-top: .1rem solid rgba(173, 173, 173, .150);
+    margin-top: 1.5rem;
+}
+
+/* * */
+.card-container .figure-final {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 1.7rem;
+}
+
+/* * */
+.card-container .figure-final img {
+    width: 40px;
+    border-radius: 50%;
+    border: .1rem solid var(--text-color);
+}
+
+/* * */
+.card-container .figure-final figcaption {
+    font-size: 1rem;
+    color: var(--other-text-color);
+}
+
+/* * */
+.card-container .figure-final figcaption span {
+    color: var(--text-color);
+}
